@@ -1,0 +1,57 @@
+.contain{
+    min-height: 100vh;
+}
+.container{
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 90%;
+    justify-content: center;
+   background-color: #2980b9;
+   align-items: center;
+}
+.container h1{
+    font-size: 35pt;
+    text-align: center;
+    font-weight: 700;
+    color: #dfe6e9;
+}
+.container .searchbar{
+    justify-content: space-between;
+    width: 75%;
+    text-align: center;
+    margin: 20px auto;
+}
+.container .searchbar input[type=text]{
+    width:70%
+}
+.container .searchbar .button{
+    width: 30%;
+    padding-right: 60px;
+    border: 2px gray solid;
+}
+.container .tableRow{
+    width: 1200px;
+    justify-content: center;
+}
+.container.table{
+    border-radius: 5px;
+}
+.container .table tr{
+    margin: 50px;
+}
+.AddRow{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1150px;
+    transform: translateX(-15px);
+}
+.AddRow .NewChemical{
+    width: 50%;
+    margin-right: 10px;
+}
+.AddRow .NewFormula{
+    width: 25%;
+    margin-right: 10px;
+}
